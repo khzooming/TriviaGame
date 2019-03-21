@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>Oscars Trivia Game</title>
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="./assets/css/style.css">
+
+</head>
+
+<body>
+
+  <!-- need to fix image background in body, details on CSS page, not working -->
+<container>
+  <div class="row">
+      <div class="col-md-2"></div>  
+<div class="jumbotron col-md-8" id="main">
+    <h1 class="display-4 text-center">Oscars Trivia Game</h1>
+    <div class="row"></div>
+        <div class="col-md-3"></div>         
+        <div class="col-md-3"></div>
+  <p class="text-center"><a class="btn btn-primary btn-lg col-md-3" id="start" href="#" role="button">START</a></p>
+         <div class="col-md-3"></div>
+    <p class="lead">Time Remaining:  </p><div id="counter"><span></span></div>
+    <hr class="my-4">
+    
+    <div class="row">
+    <div id="question"></div>
+    <div id="answers"></div>
+      <table>
+          <tr>
+              <td><input type="radio" name="rbnNumber" value="1"></input><br/>
+              <td><input type="radio" name="rbnNumber" value="1" /></input><br/>
+              <td><input type="radio" name="rbnNumber" value="1" /></input><br/>
+              <td><input type="radio" name="rbnNumber" value="1" /></input><br/>
+          </tr>
+      </table>
+  </div>
+  </div>
+</div>
+</container>
+
+<!-- Start button, trivia questions are hidden
+When start button is clicked, trivia buttons show up.  
+Use hide / unhide function
+ -->
+
+<!-- start button begins a timer, unhides questions
+
+timer count is displayed
+
+radio buttons for question answers, only one answer per question 
+
+track totals correct, incorrect, and unanswered. displayed on page after timer ends -->
+
+<!-- create array questions and multiple answers -->
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="./assets/javascript/app.js"></script>
+
+</body>
+
+</html>

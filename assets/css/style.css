@@ -1,0 +1,20 @@
+#start {
+    align-content: center;
+    background-color: red;
+    
+}
+
+#main {
+    background-color: black;
+    color: #ffffff;
+    font-weight: 800;
+    height: 75%;
+    width: 50%;
+    align-content: center;
+    z-index: 2;
+}
+
+body {
+    background: url(/assets/images/statue_blk.jpg);
+    z-index: 1;
+}
